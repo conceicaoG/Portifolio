@@ -14,7 +14,6 @@ export default function Header() {
         <li>ÍNICIO</li>
         <li>SOBRE</li>
         <li>PROJETOS</li>
-        <li>CONTATO</li>
       </S.Lista>
     </S.Header>
   )
