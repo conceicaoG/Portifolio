@@ -1,4 +1,4 @@
-import * as S from "./footer_styled"
+import * as S from '../../page/projetos/projetos_styled'
 
 export default function Card({video, imagem, texto, texto2}) {
   return (

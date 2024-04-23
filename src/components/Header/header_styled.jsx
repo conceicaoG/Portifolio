@@ -1,6 +1,6 @@
 import {styled, createGlobalStyle, css} from 'styled-components'
 
-export const globalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ const center = css`
 
 export const Header = styled.header`
 //border: solid red 1px;
-background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 2), rgba(0, 0, 0, 3));
 width: 100%;
 height: 15vh;
 ${center};
@@ -71,7 +71,7 @@ color: white;
 //Responsivo
 `
 
-export const Lista = styled.ul`
+export const Box = styled.ul`
 //border: solid 1px red;
   width: 60%;
   justify-content: space-around;
@@ -92,4 +92,8 @@ export const Lista = styled.ul`
   justify-content: space-around;
 }
 //Responsivo
+`
+
+export const Lista = styled.li`
+  color: white;
 `

@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './header_styled'
-import logoGabriel from '../../assets/header/logoGabriel.png'
+import { Link } from 'react-router-dom';
 import logoGabriel2 from '../../assets/header/logoGabriel2.png'
 
 export default function Header() {
@@ -10,11 +10,11 @@ export default function Header() {
         <img src={logoGabriel2} alt="" />
         <S.Nome>Gaab_Conceicao</S.Nome>
       </S.Logo>
-      <S.Lista>
-        <li>ÍNICIO</li>
-        <li>SOBRE</li>
-        <li>PROJETOS</li>
-      </S.Lista>
+      <S.Box>
+        <S.Lista linha="1px solid white"><Link to="/">Inicio</Link></S.Lista>
+        <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
+        <S.Lista><Link to="/projetos">Projetos</Link></S.Lista>
+      </S.Box>
     </S.Header>
   )
 }
