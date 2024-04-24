@@ -16,41 +16,32 @@ height: 85vh;
 flex-direction: column;
 `
 export const Curriculo = styled.div`
-margin-right: 75%;
 margin-top: 1vw;
-@media(max-width: 600px) {
+margin-right: 75%;
+@media(max-width: 560px) {
 Button{
-    width: 20vh;
+    width: 17vh;
     font-size: 10px;
 }
 }
 @media(max-width: 480px) {
 Button{
-    width: 17vh;
+    width: 15vh;
     font-size: 9px;
+    margin-left: 2vh;
 }
-}
-@media(max-width: 430px) {
-Button{
-    width: 14vh;
-    font-size: 7px;
-}
-}
-@media(max-width: 430px) {
 
-Button{
-    width: 14vh;
-    font-size: 7px;
-
-}
 }
 `
 export const BemVindo = styled.div`
+
 width: 70%;
 color: white;
 font-size: 30px;
-${center}
-  height: 85vh; // Definindo a altura para ocupar toda a tela
+display: flex;
+
+align-items: center;
+height: 85vh;
 
 p{
     font-size: 20px;
@@ -61,37 +52,26 @@ p{
 
 @media(max-width: 700px) {
 font-size: 20px;
-margin-left: 5vh;
+
   p{
     font-size: 20px;
     }
   } 
+
 @media(max-width: 540px) {
-font-size: 18px;
-margin-left: 2vh;
+font-size: 20px;
+width: 90%;
   p{
-    font-size: 14px;
+    font-size: 16px;
     }
   } 
 
-  @media(max-width: 380px) {
-font-size: 16px;
-  p{
-    font-size: 13px;
-    }
-  } 
-  @media(max-width: 320px) {
-font-size: 14px;
-  p{
-    font-size: 11px;
-    }
-  } 
 `
 export const TextosSection = styled.section`
-width: 100%;
 flex-direction: column;
 ${center}
 height: 100%;
+
 `
 export const Contato = styled.section`
 color: white;
@@ -99,14 +79,27 @@ width: 100%;
 ${center};
 
 img{
-    width: 3vw;
-    margin:4vh;
+    width: 4vw;
+    margin:3vh;
     transition: transform 0.3s ease;
 }
 
 img:hover {
     transform: scale(1.2);
   }
+
+@media(max-width: 430px) {
+    img{
+    width: 6vw;
+    margin:3vh;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+  }
+
+}
 `
 
 export const AvatarSection = styled.section`
@@ -119,26 +112,27 @@ width: 80%;
 @media(max-width: 700px) {
 margin-bottom: 10vw;
   img{
-    width: 40vh;
+    width: 80%;
     }
   } 
 
-@media(max-width: 580px) {
+@media(max-width: 600px) {
   img{
-    width: 35vh;
+    width: 90%;
+    }
+  } 
+
+
+  @media(max-width: 500px) {
+  img{
+    width: 120%;
     }
   } 
 
   @media(max-width: 380px) {
-    width: 20vh;
   img{
-    width: 25vh;
+    width: 160%;
     }
   } 
-  @media(max-width: 320px) {
-    width: 15vh;
-  img{
-    width: 20vh;
-    }
-  } 
+
 `
