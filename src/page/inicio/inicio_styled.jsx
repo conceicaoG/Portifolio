@@ -89,7 +89,6 @@ font-size: 15px;
   } 
 `
 export const TextosSection = styled.section`
-border: solid red 1px;
 width: 100%;
 flex-direction: column;
 ${center}
@@ -112,7 +111,6 @@ img:hover {
 `
 
 export const AvatarSection = styled.section`
-border: solid blue 1px;
 width: 100%;
 height: 100%;
 
