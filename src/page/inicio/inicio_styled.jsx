@@ -7,38 +7,41 @@ const center = css`
  `
 export const Main = styled.main`
 background-color: #222929;
-width: 100%;
-@media(max-width: 550px) {
-  height: 70%;
-  margin-right: 10px;
-  /* img{
-    width: 50%vh;
-    } */
-  } 
 `
 
 export const Inicio = styled.section`
 ${center}
 width: 100%;
-padding: 1.3%;
-
-
+height: 85vh;
+flex-direction: column;
 `
 export const Curriculo = styled.div`
-margin-bottom: 35vw;
-
-@media(max-width: 470px) {
+margin-right: 75%;
+margin-top: 1vw;
+@media(max-width: 600px) {
 Button{
     width: 20vh;
     font-size: 10px;
-    text-align: left;
 }
 }
-@media(max-width: 440px) {
+@media(max-width: 480px) {
 Button{
     width: 17vh;
     font-size: 9px;
-    margin-left: 2vh;
+}
+}
+@media(max-width: 430px) {
+Button{
+    width: 14vh;
+    font-size: 7px;
+}
+}
+@media(max-width: 430px) {
+
+Button{
+    width: 14vh;
+    font-size: 7px;
+
 }
 }
 `
@@ -47,8 +50,8 @@ width: 70%;
 color: white;
 font-size: 30px;
 ${center}
-height: 30vw;
-margin-left: 10vh;
+  height: 85vh; // Definindo a altura para ocupar toda a tela
+
 p{
     font-size: 20px;
     color: #e4e72e;
@@ -56,23 +59,14 @@ p{
     margin-top: 1vh;
 }
 
-@media(max-width: 750px) {
-width: 100%;
-font-size: 25px;
-  p{
-    font-size: 16px;
-    }
-  } 
-  @media(max-width: 700px) {
-width: 100%;
+@media(max-width: 700px) {
 font-size: 20px;
 margin-left: 5vh;
   p{
-    font-size: 16px;
+    font-size: 20px;
     }
   } 
 @media(max-width: 540px) {
-width: 100%;
 font-size: 18px;
 margin-left: 2vh;
   p{
@@ -80,11 +74,16 @@ margin-left: 2vh;
     }
   } 
 
-@media(max-width: 480px) {
-width: 100%;
-font-size: 15px;
+  @media(max-width: 380px) {
+font-size: 16px;
   p{
-    font-size: 12px;
+    font-size: 13px;
+    }
+  } 
+  @media(max-width: 320px) {
+font-size: 14px;
+  p{
+    font-size: 11px;
     }
   } 
 `
@@ -111,32 +110,35 @@ img:hover {
 `
 
 export const AvatarSection = styled.section`
-width: 100%;
-height: 100%;
-
+margin-bottom: 6vw;
+${center}
 img{
 width: 80%;
-margin-left: 8vh;
 }
 
 @media(max-width: 700px) {
 margin-bottom: 10vw;
   img{
-    width: 30vh;
-    margin-left: 0;
+    width: 40vh;
     }
   } 
 
 @media(max-width: 580px) {
-margin-bottom: 10vw;
+  img{
+    width: 35vh;
+    }
+  } 
+
+  @media(max-width: 380px) {
+    width: 20vh;
   img{
     width: 25vh;
     }
   } 
- @media(max-width: 510px) {
-margin-bottom: 5vw;
+  @media(max-width: 320px) {
+    width: 15vh;
   img{
-    width: 25vh;
+    width: 20vh;
     }
   } 
 `
