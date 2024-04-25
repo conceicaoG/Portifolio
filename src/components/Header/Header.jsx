@@ -11,7 +11,7 @@ export default function Header() {
         <S.Nome>Gaab_Conceicao</S.Nome>
       </S.Logo>
       <S.Box>
-        <S.Lista linha="1px solid white"><Link to="/">Inicio</Link></S.Lista>
+        <S.Lista><Link to="/">Inicio</Link></S.Lista>
         <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
         <S.Lista><Link to="/projetos">Projetos</Link></S.Lista>
       </S.Box>

@@ -15,15 +15,12 @@ const center = css`
 
 export const Header = styled.header`
 //border: solid red 1px;
-background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 2), rgba(0, 0, 0, 3));
+background: linear-gradient(to right, #000000, #000001, #161616,  #353434);
 width: 100%;
 height: 15vh;
 ${center};
 justify-content: space-evenly;
 
-@media(max-width: 370px) {
-  width: 100%;
-}
 `
 
 export const Logo = styled.div`
@@ -72,28 +69,32 @@ color: white;
 `
 
 export const Box = styled.ul`
-//border: solid 1px red;
-  width: 60%;
-  justify-content: space-around;
-  list-style: none;
-  display: flex;
-  color: white;
+width: 60%;
+height: 50%;
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
  
 //Responsivo  
   @media(max-width: 550px) {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+  width: 70%;
 }
 
 @media(max-width: 430px) {
-  width: 90vh;
-  display: flex;
-  justify-content: space-around;
+  width: 60%;
 }
 //Responsivo
 `
 
 export const Lista = styled.li`
+a{
+  font-size: 1.5rem;
   color: white;
+}
+@media(max-width: 430px) {
+ a{
+  font-size: 1rem;
+ }
+}
 `

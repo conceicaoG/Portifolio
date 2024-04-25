@@ -24,8 +24,9 @@ export default function Projeto() {
             </Button>
         </S.Curriculo>
         <S.BemVindo>
-            <S.TextosSection>Prazer, Sou Gabriel um desenvolvedor em crescimento constante 👨‍💻
-                <p>“O conhecimento é a moeda mais valiosa no mundo atual.” – Geoffrey Moore</p>
+            <S.TextosSection>
+                <p>Prazer, Sou Gabriel um desenvolvedor em crescimento constante 👨‍💻</p>
+                <p className='conhecimento'>“O conhecimento é a moeda mais valiosa no mundo atual.” – Geoffrey Moore</p>
                 <S.Contato>
                     <a href="https://www.instagram.com/gaab_97/" target="_blank">
                         <img src={insta} alt="" />
