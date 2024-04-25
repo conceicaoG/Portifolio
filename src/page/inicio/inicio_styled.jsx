@@ -59,7 +59,7 @@ height: 85vh;
 export const TextosSection = styled.section`
 flex-direction: column;
 display:flex;
-align-items: center;
+align-items: baseline;
 height: 90%;
 
 p{
@@ -69,7 +69,7 @@ p{
 .conhecimento{
     font-size: 1.4rem;
     color: #e4e72e;
-    margin-bottom: 6vw;
+    margin-bottom: 3vw;
     margin-top: 3vw;
 }
 
