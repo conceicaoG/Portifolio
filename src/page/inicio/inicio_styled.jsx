@@ -17,7 +17,6 @@ height: 85vh;
 flex-direction: column;
 `
 export const Curriculo = styled.div`
-margin-top: 1vw;
 margin-right: 75%;
 @media(max-width: 560px) {
 Button{
