@@ -6,7 +6,8 @@ const center = css`
  align-items: center;
  `
 export const Main = styled.main`
-background-color: #222929;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+
 `
 
 export const Inicio = styled.section`

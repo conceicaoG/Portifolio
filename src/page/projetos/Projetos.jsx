@@ -19,27 +19,30 @@ export default function Projetos() {
     <S.Main>
       <Header />
       <S.Projetos>
-        <p>Meus Projetos:</p>
-        <S.CardProjetos>
-          <Card video={mc} texto={"Mc Donald's"} texto2={"Tecnologias: Html, CSS e JavaScript"} imagem={html} />
-          <Card video={mc} texto={"Mc Donald's"} texto2={"Tecnologias: Html, CSS e JavaScript"} imagem={html} />
-          <Card video={mc} texto={"Mc Donald's"} texto2={"Tecnologias: Html, CSS e JavaScript"} imagem={html} />
-        </S.CardProjetos>
+        <S.MeusProjetos>
+        <S.Titulo>
+          <p>Meus Projetos:</p>
+          </S.Titulo>
+          <S.CardProjetos>
+            <Card video={mc} texto={"Mc Donald's"} texto2={"TECNOLOGIAS: HTML - REACT.JS E STYLED-COMPONENTS"} imagem={html} />
+            <Card video={mc} texto={"Mc Donald's"} texto2={"TECNOLOGIAS HTML - REACT.JS E STYLED-COMPONENTS"} imagem={html} />
+            <Card video={mc} texto={"Mc Donald's"} texto2={"TECNOLOGIAS HTML - REACT.JS E  STYLED-COMPONENTS"} imagem={html} />
+          </S.CardProjetos>
+        </S.MeusProjetos>
       </S.Projetos>
-      <S.Habilidades>
-        <p>Algumas das minhas Habilidades:</p>
-        <figure>
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={js} alt="" />
-          <img src={react} alt="" />
-          <img src={angular} alt="" />
-          <img src={styled} alt="" />
-          <img src={net} alt="" />
-          <img src={gitWhite} alt="" />
-          <img src={vsCode} alt="" />
-        </figure>
-      </S.Habilidades>
+        <S.Habilidades>
+          <p>Algumas das minhas Habilidades:</p>
+          <figure>
+            <img src={html} alt="" />
+            <img src={css} alt="" />
+             <img src={react} alt="" />
+            <img src={angular} alt="" />
+            <img src={styled} alt="" />
+            <img src={net} alt="" />
+            <img src={gitWhite} alt="" />
+            <img src={vsCode} alt="" />
+          </figure>
+        </S.Habilidades>
     </S.Main>
   )
 }

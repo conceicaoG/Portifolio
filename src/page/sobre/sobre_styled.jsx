@@ -7,10 +7,9 @@ const center = css`
  `
 
 export const Main = styled.main`
-background-color: #464747;
 `
 export const Sobre = styled.div`
-background-color: #464747;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
 ${center}
 flex-direction: column;
 height: 85vh;

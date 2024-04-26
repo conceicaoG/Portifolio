@@ -7,7 +7,9 @@ export default function Header() {
   return (
     <S.Header>
       <S.Logo>
+      <a href="/">
         <img src={logoGabriel2} alt="" />
+      </a>  
         <S.Nome>Gaab_Conceicao</S.Nome>
       </S.Logo>
       <S.Box>
