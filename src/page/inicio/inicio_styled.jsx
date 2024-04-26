@@ -132,9 +132,8 @@ export const Contato = styled.section`
 box-shadow: 0 0 20px 10px rgba(223, 238, 11, 0.582);
 color: white;
 justify-content: space-around;
-width: 80%;
+width: 90%;
 display:flex;
-margin-bottom: 3vh;
 
 img{
     width: 4vw;
@@ -173,8 +172,7 @@ img:hover {
 
 @media(max-width: 430px) {
     img{
-    width: 4vw;
-    margin: 2vh;
+    width: 6vw;
     transition: transform 0.3s ease;
 }
 
