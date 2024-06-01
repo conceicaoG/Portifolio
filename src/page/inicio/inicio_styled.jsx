@@ -131,9 +131,10 @@ p{
 export const Contato = styled.section`
 box-shadow: 0 0 20px 10px rgba(223, 238, 11, 0.582);
 color: white;
-justify-content: space-around;
+justify-content: space-evenly;
 width: 90%;
 display:flex;
+align-items: center;
 
 img{
     width: 4vw;
