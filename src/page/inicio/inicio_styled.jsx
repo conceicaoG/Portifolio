@@ -25,6 +25,7 @@ Button{
     font-size: 10px;
     margin-left: 4vh;
 }
+
 }
 @media(max-width: 480px) {
 Button{
