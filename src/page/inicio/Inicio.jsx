@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import * as S from "./inicio_styled"
 import { VerticalAlignBottomOutlined } from '@ant-design/icons';
 import Header from '../../components/Header/Header';
